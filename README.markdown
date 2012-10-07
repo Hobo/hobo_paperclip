@@ -29,11 +29,15 @@ Paperclip is required so add it to your gemfile if you don't have it alread
     
 Add hobo_paperclip to your gemfile
 
-	gem 'hobo_paperclip, :git => "git://github.com/bsleys/hobo_paperclip.git", :branch => "master"
-    
+	gem 'hobo_paperclip', :git => "git://github.com/bsleys/hobo_paperclip.git", :branch => "master"
+	
 Update your bundle:
 
     bundle install
+
+Include the hobo_paperclip taglib in front_site.dryml
+	
+	<include gem='hobo_paperclip'/>
 
 Add paperclip to one of your models:
 
