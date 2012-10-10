@@ -18,7 +18,7 @@ It adds two small things:
           <%= file_field_tag param_name_for_this, attributes %>
         </def>
         
-   (to get this, you need `<include src="paperclip" plugin="paperclip_with_hobo"/>` in application.dryml)
+   (to get this, you need `<include gem='hobo_paperclip'/>` in front_site.dryml)
 
 
 ### Installation
@@ -29,7 +29,7 @@ Paperclip is required so add it to your gemfile if you don't have it alread
     
 Add hobo_paperclip to your gemfile
 
-	gem 'hobo_paperclip', :git => "git://github.com/bsleys/hobo_paperclip.git", :branch => "master"
+	gem 'hobo_paperclip', :git => "git://github.com/Hobo/hobo_paperclip.git", :branch => "master"
 	
 Update your bundle:
 
