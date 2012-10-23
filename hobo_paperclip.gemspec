@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Add paperclip support to Hobo."
   s.description = "Add paperclip support to Hobo."
 
-  s.files = `git ls-files -x #{name}/* -z`.split("\0")
+  s.files = `git ls-files -z`.split("\0")
   s.add_runtime_dependency('hobo')
   s.add_runtime_dependency('paperclip')
 end
