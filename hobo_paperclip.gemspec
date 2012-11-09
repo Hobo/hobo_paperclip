@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = HoboPaperclip::VERSION
   s.authors     = ["Bob Sleys"]
   s.email       = ["bsleys@gmail.com"]
-  s.homepage    = "https://github.com/bsleys/hobo_paperclip"
+  s.homepage    = "https://github.com/hobo/hobo_paperclip"
   s.summary     = "Add paperclip support to Hobo."
   s.description = "Add paperclip support to Hobo."
 
