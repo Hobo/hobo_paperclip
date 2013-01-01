@@ -1,7 +1,7 @@
 This is a plugin for [Hobo](http://hobocentral.net).
 This is a direct port of paperclip_with_hobo plugin to a GEM.
 
-Install this plugin alongside [paperclip]
+This plugin wraps [paperclip](http://rubygems.org/gems/paperclip) for Hobo.
 
 It adds two small things:
 
