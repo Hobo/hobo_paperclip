@@ -23,11 +23,11 @@ It adds two small things:
 
 ### Installation
 
-Paperclip is required so add it to your gemfile if you don't have it alread
+Paperclip is required so add it to your gemfile if you don't have it already
 
     gem 'paperclip'
     
-Add hobo_paperclip to your gemfile
+Add hobo_paperclip to your gemfile (make sure you add it *below* paperclip, or it will fail with `undefined method 'has_attached_file' for module Paperclip::ClassMethods' (NameError)`):
 
 	gem 'hobo_paperclip', :git => "git://github.com/Hobo/hobo_paperclip.git", :branch => "master"
 	
